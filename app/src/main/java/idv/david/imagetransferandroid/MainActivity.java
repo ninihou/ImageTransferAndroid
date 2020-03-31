@@ -300,6 +300,7 @@ public class MainActivity extends AppCompatActivity {
                     text += getString(R.string.text_NotGranted);
                     Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
                 }
+                //改了
                 break;
         }
     }
