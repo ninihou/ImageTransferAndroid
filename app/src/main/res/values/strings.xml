@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ImageTransferAndroid</string>
+    <string name="msg_NoCameraApp">No camera app found</string>
+    <string name="text_btUpload">Upload</string>
+    <string name="hint_etUser">User name (input "abc")</string>
+    <string name="hint_etPassword">Password</string>
+    <string name="cbSavePassword">Save Password</string>
+    <string name="text_Login">Login</string>
+    <string name="text_Logout">Logout</string>
+    <string name="msg_InvalidUserOrPassword">User name or password invalid</string>
+    <string name="msg_NotUploadWithoutPicture">Not upload without picture</string>
+    <string name="text_Upload">Upload</string>
+    <string name="text_Response">Response</string>
+    <string name="msg_NoNetwork">no network connection available</string>
+    <string name="text_NotGranted">not granted</string>
+</resources>

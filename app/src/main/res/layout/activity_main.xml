@@ -1,0 +1,80 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff80081c"
+            android:text="@string/text_Upload"
+            android:textColor="#ffffffff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="onLogoutClick"
+            android:text="@string/text_Logout"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ivTakePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:onClick="onTakePictureClick"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <Button
+            android:id="@+id/btUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:onClick="onUploadClick"
+            android:text="@string/text_btUpload" />
+
+        <TextView
+            android:id="@+id/tvResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="#ff80081c"
+            android:text="@string/text_Response"
+            android:textColor="#ffffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvResultUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="37dp"
+            android:text="@string/text_Response"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/ivResponseImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:src="@android:drawable/ic_menu_camera" />
+    </LinearLayout>
+
+</ScrollView>
