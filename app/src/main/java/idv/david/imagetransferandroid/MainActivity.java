@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             String url = params[0].toString();
             String name = params[1].toString();
             String password = params[2].toString();
-            byte[] image = (byte[]) params[3];//把byte轉成文字格式
+            byte[] image = (byte[]) params[3];//把byte轉成文字
             String jsonIn;
             JsonObject jsonObject = new JsonObject();
             jsonObject.addProperty("name", name);
